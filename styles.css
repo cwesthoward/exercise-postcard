@@ -8,12 +8,14 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	border-radius: 20px;
 	margin: auto;
-	width: 400px;
-	height: 320px;
+	width: 420px;
+	height: 360px;
 }
 .postcard-header {
 	display: flex;
+	padding: 7px;
 }
 .postcard-header img {
 	width: 50px;
@@ -21,14 +23,17 @@ body {
 }
 .postcard-header h1 {
 	width: 400px;
-	margin: 0px;
+	margin: 10px;
+	text-shadow: rgb(0, 255, 242) 1px 0 10px;
 }
 .postcard-body {
 	display: flex;
 	font-size: 18px;
+	text-shadow: 2px 2px 4px rgb(0, 255, 242);
 }
 .body-left p:first-child {
 	margin-top: none;
+	padding: 5px;
 }
 body-left,
 .body-right {
@@ -45,4 +50,5 @@ button {
 	background-color: aqua;
 	padding: 5px;
 	font-size: 18px;
+	border-radius: 10px;
 }
